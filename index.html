@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Güncel Versiyonu</title>
+    <style>
+        body{
+            margin: 0;
+            height: auto;
+            background-color: rgb(255, 255, 255);
+        }
+        nav{
+            height: 42px;
+            line-height: 42px;
+        }
+        nav ul{
+            float: right;
+        }
+        ul li{
+            list-style-type: none;
+            float: left;             
+            padding: 0 16px;         
+        }
+        nav ul li img:hover{
+            filter: drop-shadow(5px 5px 5px);
+        }
+        nav ul li:hover{
+            text-decoration: underline rgb(0, 0, 0);
+        }
+        nav ul li a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        header{
+            margin: 150px 0 0 0;
+        }
+        header img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        section{
+            text-align: center;
+            margin: 20px 0 329px 0;
+        }
+        section figure{
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(255, 255, 255);
+            width: 600px;
+            height: 40px;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 50px;
+
+            background-image: url(images/search-icon.png), url(images/keyboard.png), url(images/microphone.png);
+            background-repeat: no-repeat;
+            background-position: 15px, 540px, 570px;
+            background-size: 20px;
+
+            
+        }
+        section figure:hover{
+            filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+        }
+        section figure input{
+            margin-right: 20px;
+            margin-top: 3px;
+            background-color: rgb(255, 255, 255);
+            width: 480px;
+            height: 36px;
+        }
+        section article button{
+            background-color: rgb(199, 199, 199);
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #5f6368;
+            font-size: 14px;
+            height: 36px;
+            border: 1px solid #f2f2f2;
+            margin-left: 10px;
+        }
+        section article button:hover{
+            filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+        }
+        section article p{
+            font-size: 12px;
+        }
+        section article p a{
+            text-decoration: none;
+        }
+        section article p a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            height: 100px;
+            background-color: #f2f2f2;
+            color: rgb(0, 0, 0);
+        }
+        footer ul{
+            list-style-type: none;
+        }
+        footer ul a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        footer ul a:hover{
+            text-decoration: underline rgb(0, 0, 0);
+        }
+        .fl{
+            float: left;
+        }
+        .fr{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li> <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a> </li>
+                <li> <a href="https://www.google.com.tr/imghp?hl=tr&ogbl">Görseller</a> </li>
+                <li> <a href="https://about.google/products/"><img style="width: 32px; height: 32px;" src="images/Vector.png" alt="Uygulamalar İconu"></a>  </li>
+                <li> <a href="https://accounts.google.com/SignOutOptions?hl=tr&continue=https://www.google.com/"><img style="border-radius: 25px;" src="images/leyla-gerez-profil-gorseli.jpg" alt="Google Hesabı Profil Görseli"></a>  </li>
+            </ul>
+        </nav>
+        <header>
+            <img src="images/google-cuurent-logo.png" alt="Google Güncel Logosu">
+        </header>
+        <section>
+            <figure>
+                <input type="search" name="" id="">
+            </figure>
+            <article>
+                <a href=""><button>Google'da Ara</button></a>
+                <a href="https://www.google.com/doodles"><button>Kendimi Şanslı Hissediyorum</button></a>  
+                <p>Google'ı Kullanabileceğiniz Diğer Diller: <a href="">English</a> </p>
+            </article>
+        </section>
+        <footer>
+            <p style="padding: 10px 44px;">Türkiye</p>
+            <hr>
+            <ul>
+                <a style="padding-left: -20px;" class="fl" href="">Hakkında</a>
+                <a style="padding-left: 10px;" class="fl" href="">Reklam</a>
+                <a style="padding-left: 10px;" class="fl" href="">İşletme</a>
+                <a style="padding-left: 10px;" class="fl" href="">Arama Nasıl Çalışır?</a>
+                <a style="padding-left: 200px;" href=""> <img style="width: 12.95px; height: 20px; padding-right: 5px;" src="images/leaf-icon.png" alt="">  <strong style="padding-bottom: 10px;">2007'den Bu Yana Karbon Nötr</strong> </a>
+                <a style="padding-right: 44px;" class="fr" href="">Ayarlar</a>
+                <a style="padding-right: 10px;" class="fr" href="">Şartlar</a>
+                <a style="padding-right: 10px;" class="fr" href="">Gizlilik</a>
+            </ul>
+        </footer>
+    </main>
+</body>
+</html>
